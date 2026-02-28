@@ -38,14 +38,14 @@ where:
 
 # 2. Framework Principles (Model Definition)
 
-## (1) **Confidence of Identity**: Identity accumulates confidence over time.
+## (1) Confidence of Identity: Identity accumulates confidence over time.
 Maintains probabilistic confidence that a subject corresponds to an identity hypothesis.
 
 The governing architecture of the system. Identity is treated not as a fixed attribute to be verified, but as an evolving probability distribution over competing hypotheses. Every component either contributes evidence to this process or helps govern how belief updates over time.
 
 ---
 
-## (2) **Progression of Identity**: Maintain the best current explanation of who someone is.
+## (2) Progression of Identity: Maintain the best current explanation of who someone is.
 The system’s running picture of identity evolves continuously as evidence accumulates and decays over time.
 
 Maintains and updates the posterior P(H | E) -- the system’s current best estimate of which identity hypothesis is most credible given accumulated evidence. It performs belief-updating: consuming weighted evidence and producing a ranked distribution over hypotheses as output. It continuously updates the running confidence across competing identity explanations.
@@ -54,7 +54,7 @@ Maintains and updates the posterior P(H | E) -- the system’s current best esti
 
 ---
 
-## (3) **Contradiction Grammar**: Classify inconsistencies into structured types
+## (3) Contradiction Grammar: Classify inconsistencies into structured types
 Classifies inconsistencies into structured types, allowing the system to extract meaning from how signals disagree rather than treating contradiction as failure.
 
 - Noise
@@ -67,7 +67,7 @@ Contradictions are interpreted as information rather than failures.
 
 ---
 
-## (4) **Independence of Observation**: Ensures that agreement only increases from independent sources.
+## (4) Independence of Observation: Ensures that agreement only increases from independent sources.
 Prevents correlated sources from being treated as independent evidence.
 
 Infers coupling between observers and discounts shared-origin signals.
@@ -76,7 +76,7 @@ By estimating coupling between observers, the system discounts evidence that sha
 
 ---
 
-## (5) **Identity Transition**: Handles legitimate identity change.
+## (5) Identity Transition: Handles legitimate identity change.
 Handles legitimate identity change by temporarily adjusting evaluation rules when supported by declaration and bridge evidence.
 
 Allows transformation without collapsing continuity.
@@ -85,7 +85,7 @@ Governs legitimate transformation. When triggered by self-declaration and bridge
 
 ---
 
-## (6) **Plurality of Judgment**: Ensures that identity is never determined by a single authority.
+## (6) Plurality of Judgment: Ensures that identity is never determined by a single authority.
 Multiple independent evaluators produce competing interpretations.
 
 Authority emerges from comparison rather than centralized decision-making.
@@ -94,7 +94,7 @@ Multiple independent evaluators produce competing interpretations, and their inf
 
 ---
 
-## (7) **Assertion of Identity**: Allows individuas to self-attest and issue challenges.
+## (7) Assertion of Identity: Allows individuas to self-attest and issue challenges.
 The subject participates through bounded self-attestation and challenge.
 
 Assertions influence confidence but cannot unilaterally determine identity.
@@ -103,7 +103,7 @@ Through bounded assertions and challenges, the subject can introduce claims and 
 
 ---
 
-## (8) **Earned Legitimacy**: Ensures that authority is never granted permanently.
+## (8) Earned Legitimacy: Ensures that authority is never granted permanently.
 Evaluator influence is inferred from performance over time:
 
 - accuracy
@@ -117,7 +117,7 @@ Evaluators gain influence through demonstrated accuracy, transparency, and accou
 
 ---
 
-## (9) **Seed of Trust**: Governs how identity begins when evidence is scarce.
+## (9) Seed of Trust: Governs how identity begins when evidence is scarce.
 Defines initialization before sufficient evidence exists.
 
 Establishes priors and governs early evidence weighting to prevent unstable inference.
@@ -126,7 +126,7 @@ It establishes initial expectations and controls how quickly early signals influ
 
 ---
 
-## (10) **Restoration of Trust**: Handles what happens after a poisoning event, a false fork, or a period of quarantine.
+## (10) Restoration of Trust: Handles what happens after a poisoning event, a false fork, or a period of quarantine.
 Allows recovery after compromised evidence or false conclusions.
 
 Implements retrospective reweighting and historical revision without discarding valid history.
