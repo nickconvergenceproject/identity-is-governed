@@ -1,5 +1,5 @@
 # Identity Is Governed, Not Authenticated
-## Insights, Frameworks, and Directions
+## Insights and Directions
 
 ---
 
