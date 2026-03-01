@@ -1,11 +1,11 @@
 # Identity Is Governed, Not Authenticated
-## Conversation Summary — Insights, Frameworks, and Directions
+## Insights, Frameworks, and Directions
 
 ---
 
 ## Origin
 
-The conversation started with a Substack article by Samara McIlroy (a cybersecurity practitioner) arguing that security's "techno-fix" approach — layering ever-more-complex authentication on top of what is fundamentally a social and behavioral problem — fails users, particularly those for whom the digital world wasn't built. Her ask: a care-based alternative that centers relationships over credentials.
+Inspired by a Substack article written by Samara McIlroy (a cybersecurity practitioner) arguing that security's "techno-fix" approach — layering ever-more-complex authentication on top of what is fundamentally a social and behavioral problem — fails users, particularly those for whom the digital world wasn't built. Her ask: a care-based alternative that centers relationships over credentials.
 
 The question was whether that was technically feasible. The answer turned out to be yes — but the destination was surprising.
 
@@ -266,19 +266,7 @@ The seven axioms describe a **universal pattern for stable belief about agents**
 
 ---
 
-## Outputs Produced
-
-1. **Theoretical framework** — identity as inference over a constraint graph with full governance architecture
-2. **Mathematical formalization** — Bayesian posterior over identity hypotheses with coupling-aware likelihood, contradiction grammar, authorized discontinuity regime, evaluator plurality, and legitimacy as second-order inference
-3. **TL;DR article** — "Identity Is Governed, Not Authenticated" — accessible response to Samara McIlroy's original piece
-
----
-
 ## Directions Forward
-
-**Near term:**
-- Share TL;DR with Samara McIlroy; invite her response as a practitioner
-- Publish TL;DR on The Convergence Project
 
 **Medium term:**
 - Toy numeric example: worked meta-Sybil attack to stress-test the independence machinery
